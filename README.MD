@@ -1,6 +1,8 @@
 ## Treinamento JavaScript Expert 7.0
 
-- Projeto construído a partir do treinamento de javascript expert do Erick Wendel
+- Projeto construído a partir do treinamento de javascript expert do Erick Wendel.
+
+- Foi somente utilizado Javascript
 
 ### Controle de gestos com as mãos
 
@@ -11,3 +13,7 @@ a iteração com os elementos da página.
 funções, como scroll da página por exemplo.
 
 - Também foi utilizado web workers para otimizar o processamento dos recursos da lib.
+
+### Habilite a câmera
+
+- É necessário habilitar a câmera para utilizar 100% do projeto

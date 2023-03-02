@@ -33,4 +33,8 @@ export default class View {
 
     this.#videoElement.pause()
   }
+
+  setVideoSrc(url) {
+    this.#videoElement.src = url
+  }
 }

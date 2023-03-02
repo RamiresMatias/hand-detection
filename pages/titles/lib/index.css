@@ -38,9 +38,10 @@ a {
  /* faz ficar em cima dos elementos */    
  position: fixed;    
  /* fica à frente dos elementos */  
-  z-index: 2;
+  z-index: 3;
  }
 .content {
+  overflow: hidden;
   margin: 0;
   padding: 0;
   width: 100%;

@@ -1,4 +1,4 @@
-// const [rootPath] = window.location.href.split('/pages/')
+const [rootPath] = window.location.href.split('/pages/')
 // const cardListWorker = new Worker(`./src/workers/cardListWorker.js`, {type: 'module'})
 import Controller from './controller.js'
 import Service from './service.js'
@@ -53,6 +53,7 @@ const factory = {
       view: new View(),
       camera,
       worker,
+      videoUrl: `${rootPath}/assets/video.mp4`
     })
   }
 }
